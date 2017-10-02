@@ -25,7 +25,12 @@ This repository contains the Terraform modules for creating a production ready E
   
 | Method | Path                         | Produces                   |
 | ------ | ---------------------------- | -------------------------- |
-| `GET`  | `/v1/modules/:namespace/:name` | `application/json`         |
+| `GET`  | `/v1/modules/:namespace/:name` | `application/json`    ECS stands for EC2 Container Service and is the AWS platform for running Docker containers. The full documentation about ECS can be found [here](https://aws.amazon.com/ecs/), the development guide can be found [here](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html). A more fun read can be found at [The Hitchhiker's Guide to AWS ECS and Docker](http://start.jcolemorrison.com/the-hitchhikers-guide-to-aws-ecs-and-docker/)     |
+
+## TODO
+
+ - [x] Write TODO list
+ - [ ] Get @banks to do TODO list
 
 ## What is ECS
 
