@@ -22,6 +22,10 @@ This repository contains the Terraform modules for creating a production ready E
   * [EC2 node security and updates](#ec2-node-security-and-updates)
   * [Service discovery](#service-discovery)
   * [ECS detect deployments failure](#ecs-detect-deployments-failure)
+  
+| Method | Path                         | Produces                   |
+| ------ | ---------------------------- | -------------------------- |
+| `GET`  | `/v1/modules/:namespace/:name` | `application/json`         |
 
 ## What is ECS
 
